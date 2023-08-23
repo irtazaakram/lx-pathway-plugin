@@ -69,7 +69,7 @@ quality: ## check coding style with pycodestyle and pylint
 # 	pip-sync requirements/dev.txt requirements/private.*
 
 # test target:
-# Meant to be run in Studio's vitrualenv
+# Meant to be run in CMS's vitrualenv
 # We don't use tox because we need to test with the real installation of
 # Open edX and whatever dependencies it uses.
 # We use no-cov and nomigrations because they _really_ speed up the test run.
