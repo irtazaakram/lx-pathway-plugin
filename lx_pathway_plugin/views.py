@@ -16,7 +16,7 @@ from rest_framework.response import Response
 from rest_framework.views import APIView
 
 from lx_pathway_plugin.keys import PathwayLocator
-from lx_pathway_plugin.models import Pathway, PathwaySerializer
+from lx_pathway_plugin.models import     PathwaySerializer
 
 User = get_user_model()
 
